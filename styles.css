@@ -157,7 +157,7 @@ footer { text-align: center; color: var(--muted); padding: 56px 0 36px; font-siz
 .g-item:hover img, .g-item:focus-visible img { transform: scale(1.08); }
 
 .cert { display: flex; gap: 16px; align-items: center; margin-bottom: 18px; }
-.cert-badge { width: 92px; flex: none; filter: drop-shadow(0 6px 14px rgba(255,153,0,.3)); transition: transform .4s; }
+.cert-badge { width: 110px; height: auto; flex: none; filter: drop-shadow(0 6px 14px rgba(0,0,0,.35)); transition: transform .4s; }
 .cert:hover .cert-badge { transform: rotate(-6deg) scale(1.08); }
 .valid { display: inline-block; margin-top: 6px; font-size: .75rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; background: rgba(52,211,153,.15); color: #34d399; }
 
